@@ -1,0 +1,142 @@
+body {
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+.bg-color {
+    background-color: #5151bb;
+    color: #ffffff;
+}
+
+.bg-img {
+    background-image: url('../resources/keyboard.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+}
+
+.bg-home {
+    height: 100vh;
+    width: 100%;
+    background-color: #5151bb;
+    opacity: 0.7;
+}
+
+.hero-section {
+    height: 70%;
+    color: #ffffff;
+    font-family: 'Quintessential', cursive;
+}
+
+.font-large {
+    font-size: 70px;
+    font-weight: bolder;
+    
+}
+
+.what-we-do {
+    height: 400px;
+    width: 400px;
+   
+    border-radius: 50%;
+    box-sizing: border-box;
+
+}
+
+.what-we-do ul {
+    list-style: circle;
+}
+
+.font-dark {
+    color: black;
+}
+
+.font-light {
+    color: white;
+}
+
+.navbar-nav {
+    font-size: 30px;
+}
+
+.quotes {
+    height: 100%;
+    text-align: center;
+}
+
+#about {
+    min-height: 100vh;
+    height: auto;
+    background-color: #ffffff;
+    color: #000000;
+    /* opacity: 0.8; */
+    scroll-behavior: smooth;
+}
+
+#services {
+    min-height: 100vh;
+    height: auto;
+    /* background-color: #5151 bb; */
+    color: #000000;
+    /* opacity: 0.8; */
+    scroll-behavior: smooth;
+}
+
+#services ul {
+    list-style: none;
+    color: #ffffff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Quintessential', cursive;
+    font-size: x-large;
+}
+
+@media only screen and (max-width: 990px) {
+   .hero-section {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+   }
+    .what-we-do {
+        height: 450px;
+        width: 250px;
+         border-radius: 50%;
+       font-size: small;
+        padding: 5px; 
+    }
+    h1 {
+        font-size: 50px;
+    }
+    h2 {
+        font-size: small;
+    }
+}
+
+
+@media only screen and (max-width: 575px) {
+    .hero-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .what-we-do {
+        height: 500px;
+        width: 200px;
+        border-radius: 50%;
+        font-size: small;
+        padding: 5px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    h2 {
+        font-size: small;
+    }
+    .sm {
+        display: flex;
+        flex-direction: column;
+    }
+}
